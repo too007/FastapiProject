@@ -13,7 +13,9 @@ router = APIRouter()
 ↓
 
 @router.post("/users")
+
 def add_user(user: UserCreate, db: Session = Depends(get_db)):
-    return create_user(db, user) 
+
+ return create_user(db, user) 
 
 
