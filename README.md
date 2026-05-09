@@ -3,7 +3,9 @@ app.include_router(api_router)
        ↓
        
 router.py
+
 api_router = APIRouter()
+
 api_router.include_router(router)                                                                                                                                          
        ↓                                                                                            
        
